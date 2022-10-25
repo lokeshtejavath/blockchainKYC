@@ -5,4 +5,6 @@ const router = express.Router();
 
 router.post('/print', qrcodeRoute.printToTerminal);
 
+router.post('/read', qrcodeRoute.readQRcode);
+
 module.exports = router;
