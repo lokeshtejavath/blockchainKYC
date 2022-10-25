@@ -68,7 +68,7 @@ function App() {
         <button type="submit">Submit</button>
       </form>
 
-      <form>
+      {/* <form>
         <input type="file" name="file" onChange={changeHandler} />
         {isSelected ? (
           <div>
@@ -85,7 +85,7 @@ function App() {
         <div>
           <button onClick={handleSubmission}>Submit</button>
         </div>
-      </form>
+      </form> */}
     </div>
   );
 }
