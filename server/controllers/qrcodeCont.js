@@ -9,7 +9,7 @@ const printToTerminal = (req, res) => {;
     qrcode.toTerminal(stringData);
 
     res.status(200).send({ done: true });
-};
+}; 
 
 module.exports = {
     printToTerminal
