@@ -4,7 +4,7 @@ const qrcodeRoute = require("./routes/qrcodeRoutes");
 
 const app = express();
 app.use(bodyParser.json());
-const PORT = 3000;
+const PORT = 4000;
 
 // app.get('/', (req, res) => {
 //     res.redirect("/qrcode")
